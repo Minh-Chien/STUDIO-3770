@@ -15,7 +15,7 @@
       <guid>12b1ed24-3d2b-4bed-87e1-7c72470cdce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC1_Verify Successful Login</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/TC1_Verify Successful LOGIN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
