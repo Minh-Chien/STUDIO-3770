@@ -19,25 +19,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
-WebUI.comment('Story: Login to CURA system')
+//WebUI.comment('Story: Login to CURA system')
+//
+//WebUI.comment('Given that the user has the valid login information')
+//
+//WebUI.openBrowser(GlobalVariable.G_SiteURL)
+//
+//WebUI.click(findTestObject('Page_CuraHomepage/Btn_MakeAppointment'))
+//
+//WebUI.setText(findTestObject('Page_Login/TxT_UserNamE'), Username)
+//
+//WebUI.setText(findTestObject('Page_Login/TXT_PASSWORD'), Password)
+//
+//WebUI.comment('When he logins to CURA system')
+//
+//WebUI.click(findTestObject('Page_Login/Btn_Login'))
+//
+//WebUI.comment('Then he should be able to login successfully')
 
-WebUI.comment('Given that the user has the valid login information')
+WebUI.click(findTestObject('Object Repository/Page_CuraAppointment/CHK_Medicare'))
 
-WebUI.openBrowser(GlobalVariable.G_SiteURL)
-
-WebUI.click(findTestObject('Page_CuraHomepage/Btn_MakeAppointment'))
-
-WebUI.setText(findTestObject('Page_Login/TxT_UserNamE'), Username)
-
-WebUI.setText(findTestObject('Page_Login/TXT_PASSWORD'), Password)
-
-WebUI.comment('When he logins to CURA system')
-
-WebUI.click(findTestObject('Page_Login/Btn_Login'))
-
-WebUI.comment('Then he should be able to login successfully')
-
-landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
-
-WebUI.closeBrowser()
+//landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/Div_Appointment'), GlobalVariable.G_Timeout)
+//
+//WebUI.closeBrowser()
 

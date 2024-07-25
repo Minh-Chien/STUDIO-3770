@@ -27,6 +27,6 @@ WebUI.setText(findTestObject('Page_Login/TXT_PASSWORD'), Password)
 
 WebUI.click(findTestObject('Page_Login/Btn_Login'))
 
-landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/Div_Appointment'), GlobalVariable.G_Timeout)
 
 // Add comment

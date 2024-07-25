@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TXT_PASSWORD</name>
+   <name>TXT_PASSWORD123</name>
    <tag></tag>
    <elementGuidId>4931db5c-572d-4b50-9fd5-05c8c9228141</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
