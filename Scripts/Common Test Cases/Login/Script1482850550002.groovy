@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Page_CuraHomepage/Btn_MakeAppointment'))
 
 WebUI.setText(findTestObject('Page_Login/TxT_UserNamE'), Username)
 
-WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+WebUI.setText(findTestObject('Page_Login/TXT_PASSWORD'), Password)
 
 WebUI.click(findTestObject('Page_Login/Btn_Login'))
 
