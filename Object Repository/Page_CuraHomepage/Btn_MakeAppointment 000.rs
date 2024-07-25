@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Btn_MakeAppointment</name>
+   <name>Btn_MakeAppointment 000</name>
    <tag></tag>
    <elementGuidId>36ab10ef-42ea-4957-9e53-f8e9886ae996</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

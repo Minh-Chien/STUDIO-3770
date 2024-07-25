@@ -189,6 +189,5 @@
 	<classpathentry kind="lib" path="D:/17workspace/katalon/source/com.kms.katalon.misc/resources/basic-report/katalon-studio-report-plugin.jar"/>
 	<classpathentry kind="lib" path="D:/17workspace/katalon/source/.metadata/.plugins/org.eclipse.pde.core/com.kms.katalon.product.product/plugin/install/219804/1.0.2/ExcelKeywords.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

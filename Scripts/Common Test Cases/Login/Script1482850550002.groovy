@@ -21,11 +21,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
 WebUI.click(findTestObject('Page_CuraHomepage/Btn_MakeAppointment'))
 
-WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+WebUI.setText(findTestObject('Page_Login/TxT_UserNamE'), Username)
 
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
-WebUI.click(findTestObject('Page_Login/btn_Login'))
+WebUI.click(findTestObject('Page_Login/Btn_Login'))
 
 landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 

@@ -27,13 +27,13 @@ WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 WebUI.click(findTestObject('Page_CuraHomepage/Btn_MakeAppointment'))
 
-WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+WebUI.setText(findTestObject('Page_Login/TxT_UserNamE'), Username)
 
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
 WebUI.comment('When he logins to CURA system')
 
-WebUI.click(findTestObject('Page_Login/btn_Login'))
+WebUI.click(findTestObject('Page_Login/Btn_Login'))
 
 WebUI.comment('Then he should be able to login successfully')
 
